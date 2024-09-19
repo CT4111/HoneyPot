@@ -6,7 +6,7 @@ import paramiko
 hostname = '127.0.0.1'
 port = 2222  # Ensure the client connects to port 2222
 username = 'admin'
-private_key_file = 'E:/NewPython/HoneyPot/sshhoney/private.key'
+private_key_file = 'path/to/private.key'
 
 # Create SSH client
 ssh_client = paramiko.SSHClient()
